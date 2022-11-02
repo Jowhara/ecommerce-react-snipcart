@@ -1,7 +1,14 @@
 const Product = props => {
+  const { id, imageUrl, name, description, price } = props;
+
   return (
     <div key={id} className={"product"}>
-      <h1>Products</h1>
+      <img
+        src={imageUrl}
+        alt={`Image of ${name}`}
+        className={"image-product"}
+      />
+      <h3>{name}</h3>
     </div>
   );
 };
