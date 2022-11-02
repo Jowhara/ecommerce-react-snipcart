@@ -9,8 +9,16 @@ function App() {
       <main className={"main"}>
         <h1>E-commerce with React</h1>
 
-        <div className={""}>{products}</div>
+        <div className={"grid"}>
+          {products.map((product, i) => (
+            <Product {...product} key={i} />
+          ))}
+        </div>
       </main>
+      <div
+        id="snipcart"
+        data-api-key="MmExOThjN2YtMGU2Ny00NTYwLTk1YzEtZWM0NTUwNGY2MDE0NjM4MDI4MTkyMjUyMzk1NDk4"
+        hidden></div>
     </div>
   );
 }
