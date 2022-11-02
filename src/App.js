@@ -4,8 +4,10 @@ import Product from "./product";
 
 function App() {
   return (
-    <div className="App">
-      <h1>E-Commerce with React</h1>
+    <div className={"container"}>
+      <main className={"main"}>
+        <h1>E-commerce with React</h1>
+      </main>
     </div>
   );
 }
