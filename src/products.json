@@ -2,9 +2,25 @@
   {
     "id": "kirby",
     "name": "Kirby",
-    "price": 50.0,
-    "imageURL": "https://www.nintendo.se/templates/yootheme/cache/ae/PS_HACP_ARZG_UKV-aeaa2f76.webp",
+    "price": 56.0,
+    "imgURL": "https://www.nintendo.se/templates/yootheme/cache/ae/PS_HACP_ARZG_UKV-aeaa2f76.webp",
     "description": "The game is side-scrolling action platform.",
     "url": "/products/kirby"
+  },
+  {
+    "id": "mario",
+    "name": "Mario Party",
+    "price": 60.0,
+    "imgURL": "https://www.nintendo.se/templates/yootheme/cache/a1/PS_HAC_MarioPartySuperstars_PEGI-a1382dde.webp",
+    "description": "A party video game series compete in a board game.",
+    "url": "/products/marioparty"
+  },
+  {
+    "id": "wario",
+    "name": "WarioWare",
+    "price": 60.0,
+    "imgURL": "https://www.nintendo.se/templates/yootheme/cache/84/PS_HAC_WarioWare_GetItTogether_PEGI-849a1bd2.webp",
+    "description": "WarioWare is a series of comedy-based party games.",
+    "url": "/products/marioparty"
   }
 ]
