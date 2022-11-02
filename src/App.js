@@ -1,7 +1,7 @@
 import "./index.css";
 import "./App.css";
 import Product from "./Product";
-import products from "";
+import products from "./products.json";
 
 function App() {
   return (

@@ -1,1 +1,12 @@
 //import id, name, price, imageURL, description, url.
+
+[
+  {
+    "id": "kirby",
+    "name": "Kirby",
+    "price": 50.0,
+    "imageURL": "https://www.nintendo.se/templates/yootheme/cache/ae/PS_HACP_ARZG_UKV-aeaa2f76.webp",
+    "description": "The game is side-scrolling action platform.",
+    "url": "/products/kirby"
+  }
+]
