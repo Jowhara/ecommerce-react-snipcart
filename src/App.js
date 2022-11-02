@@ -1,12 +1,15 @@
 import "./index.css";
 import "./App.css";
-import Product from "./product";
+import Product from "./Product";
+import products from "";
 
 function App() {
   return (
     <div className={"container"}>
       <main className={"main"}>
         <h1>E-commerce with React</h1>
+
+        <div className={""}>{products}</div>
       </main>
     </div>
   );
