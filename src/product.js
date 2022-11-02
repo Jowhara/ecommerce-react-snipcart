@@ -1,6 +1,6 @@
 const Product = props => {
   return (
-    <div>
+    <div key={id} className={"product"}>
       <h1>Products</h1>
     </div>
   );
